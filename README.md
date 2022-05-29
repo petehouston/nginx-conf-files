@@ -31,3 +31,12 @@ $ sudo systemctl reload nginx
 | Laravel | Advanced | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/laravel_advanced.conf) | - |
 | Drupal | Generic | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/drupal.conf)          | applied to Drupal v8+ |
 
+## Leverage Let's Encrypt SSL
+
+Once you add the config to nginx, you can add Let's Encrypt config to site config via `certbot`. 
+
+```shell
+$ sudo certbot --nginx -d example.com -d www.example.com
+```
+
+All necessary config fields for SSL will be added automatically, so you don't have to do anything at this point.
