@@ -30,6 +30,7 @@ $ sudo systemctl reload nginx
 | Laravel | Simple | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/laravel_simple.conf)  | - |
 | Laravel | Advanced | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/laravel_advanced.conf) | - |
 | Drupal | Generic | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/drupal.conf)          | applied to Drupal v8+ |
+| Symfony 6 | Simple | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/symfony_6_simple.conf) | [Reference](https://symfony.com/doc/current/setup/web_server_configuration.html#nginx) |
 
 ## Leverage Let's Encrypt SSL
 
