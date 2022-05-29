@@ -23,11 +23,11 @@ $ sudo systemctl reload nginx
 
 ## Config file list
 
-| Application | Type | Download | Notes |
-| ----------- | ---- | -------- | ----- |
-| WordPress | Simple | - | - |
-| WordPress | Advanced | - | - |
-| Laravel | Simple | - | - |
-| Laravel | Advanced | - | - |
-| Drupal | Generic | - | applied to Drupal v8+ |
+| Application | Type | Download                                                                                                             | Notes |
+| ----------- | ---- |----------------------------------------------------------------------------------------------------------------------| ----- |
+| WordPress | Simple | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/wordpress_simple.conf)   | - |
+| WordPress | Advanced | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/wordpress_advanced.conf) | - |
+| Laravel | Simple | - [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/laravel_simple.conf)   | - |
+| Laravel | Advanced | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/laravel_advanced.conf)   | - |
+| Drupal | Generic | [Click to Download](https://raw.githubusercontent.com/petehouston/nginx-conf-files/dev/conf/drupal.conf)             | applied to Drupal v8+ |
 
